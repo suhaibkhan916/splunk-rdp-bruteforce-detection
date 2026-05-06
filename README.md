@@ -221,6 +221,9 @@ The lab was re-run on a separate date to validate detections held under differen
 - Detections rely on Windows Security Event Logs only. A real SOC would also consume Sysmon, EDR telemetry, network flow data, and threat intelligence feeds.
 - No SOAR or automated response was integrated. All triage was manual.
 
+## Report Link
+- https://docs.google.com/document/d/12-oJEOF0zMGjGzojnFSS0geT7wduKh8h/edit?usp=sharing&ouid=116509457122781569115&rtpof=true&sd=true
+
 ## References
 
 - Splunk Documentation, https://docs.splunk.com
