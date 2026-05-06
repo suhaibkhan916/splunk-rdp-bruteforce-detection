@@ -16,7 +16,7 @@ MSc Cyber Security lab, University of the West of England, 2024.
 
 Logs flow: Windows Security Event Log → Universal Forwarder → Splunk receiver on TCP 9997 → indexed and searched in SPL.
 
-![Lab architecture](screenshots/01-architecture-diagram.png)
+![Lab architecture](01-architecture-diagram.png)
 *Figure 1: Lab infrastructure across the three VMs.*
 
 ---
@@ -28,10 +28,10 @@ Splunk Enterprise installed via the official `.deb` package and started with `su
 ![Splunk services starting](02-splunk-services-starting.png)
 *Figure 2: Splunk service initialising on Ubuntu.*
 
-![Splunk login page](screenshots/03-splunk-login-page.jpeg)
+![Splunk login page](03-splunk-login-page.jpeg)
 *Figure 3: Splunk web UI on port 8000.*
 
-![Splunk dashboard](screenshots/04-splunk-dashboard.jpeg)
+![Splunk dashboard](04-splunk-dashboard.jpeg)
 *Figure 4: Splunk dashboard after first login.*
 
 ---
@@ -40,7 +40,7 @@ Splunk Enterprise installed via the official `.deb` package and started with `su
 
 The Splunk Universal Forwarder was installed on the Windows target and configured to forward security event logs to the Splunk indexer on TCP 9997.
 
-![Forwarder installation](screenshots/05-forwarder-installation.jpeg)
+![Forwarder installation](05-forwarder-installation.jpeg)
 *Figure 5: Universal Forwarder installation on Windows.*
 
 ![Forwarder connection verified](screenshots/06-forwarder-connection-verified.png)
