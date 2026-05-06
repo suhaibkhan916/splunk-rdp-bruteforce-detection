@@ -25,7 +25,7 @@ Logs flow: Windows Security Event Log → Universal Forwarder → Splunk receive
 
 Splunk Enterprise installed via the official `.deb` package and started with `sudo /opt/splunk/bin/splunk start --accept-license`. Web UI exposed on port 8000.
 
-![Splunk services starting](screenshots/02-splunk-services-starting.png)
+![Splunk services starting](02-splunk-services-starting.png)
 *Figure 2: Splunk service initialising on Ubuntu.*
 
 ![Splunk login page](screenshots/03-splunk-login-page.jpeg)
